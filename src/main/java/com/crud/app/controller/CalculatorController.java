@@ -20,6 +20,7 @@ public class CalculatorController {
 
     @RequestMapping(method = RequestMethod.POST, value = "add", produces = MediaType.APPLICATION_JSON_VALUE)
     public ResultDto add(
+
             @RequestParam(value = "val1", required = true) double val1,
             @RequestParam(value = "val2", required = true) double val2){
        return calculator.adding(val1,val2);
@@ -29,7 +30,6 @@ public class CalculatorController {
     public ResultDto div(
             @RequestParam(value = "val1", required = true) double val1,
             @RequestParam(value = "val2", required = true) double val2){
-
         return calculator.dividing(val1,val2);
     }
 }
