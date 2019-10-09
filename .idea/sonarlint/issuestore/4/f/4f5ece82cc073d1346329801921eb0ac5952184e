@@ -1,3 +1,3 @@
 
-esquid:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(Çåç8Ìö’®Ù-
-hsquid:S4488"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(ûü¸À8ÓÕ®Ù-
+hsquid:S4488"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(ûü¸À8¨ˆ«Ú-
+esquid:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(Çåç8¨ˆ«Ú-

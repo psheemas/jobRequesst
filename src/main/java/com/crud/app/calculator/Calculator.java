@@ -10,4 +10,6 @@ public class Calculator {
     public ResultDto dividing(double val1, double val2){
         return new ResultDto(val1/val2);
     }
+
+
 }
